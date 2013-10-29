@@ -11,10 +11,15 @@
   ],
   "formats": {
     "pdf": {
-      "version": "web",
+      "version": "print",
+      "index": true,
       "toc": true
     },
-    "epub": {},
+    "epub": {
+      "index": true,
+      "toc": true,
+      "epubcheck": true
+    },
     "mobi": {},
     "html": {
       "toc": true
